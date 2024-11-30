@@ -742,7 +742,7 @@ input{
        }
      }
 
-     .section-about{
+/*      .section-about{
         height: auto;
  
         & .grid-cols-2{
@@ -765,7 +765,7 @@ input{
          }
         }
       }
-
+ */
  }
 
  @media (width <= 1131px) {
