@@ -737,7 +737,7 @@ input{
         order: 1;
 
         & img{
-            width: 40%;
+            width: 50%;
         }
        }
      }
