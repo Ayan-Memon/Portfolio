@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- ========== Start Navbar Section ========== -->
+    <header class="section-navbar">
+        <nav class="navbar container">
+            <div class="nav-logo">
+                <h1 class="Logo">Ayan</h1>
+            </div>
+            <div class="navbar-header">
+                <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+                    &#9776; <!-- This is a simple hamburger icon -->
+                </a>
+            </div>
+            <div class="navbar-items" id="navbar-items">
+            <a href="#section-hero" class="nav-items">Home</a>
+            <a href="#section-about" class="nav-items">About</a>
+            <a href="#section-service" class="nav-items">Services</a>
+            <a href="#section-skill" class="nav-items">Skills</a>
+            <a href="#section-projects" class="nav-items">Projects</a>
+            <a href="#section-contact" class="nav-items">Contact</a>
+        </div>
+        </nav>
+    </header>
+    <!-- ========== End Navbar Section ========== -->
+
+    <!-- ========== Start Hero Section ========== -->
+     <div class="section-hero" id="section-hero">
+        <div class="container">
+            <div class="grid grid-cols-2">
+                <div class="hero-content">
+                    <h1>Hi, It's <span class="active">Ayan</span></h1>
+                    <h3>I'm a <span class="active">Web Developer</span></h3>
+                    <p>I'm a frontend developer skilled in creating responsive, user-friendly web interfaces using HTML, CSS and learning Javascript. I focus on turning designs into fast, accessible, and engaging websites.</p>
+                    <div class="pages">
+                        <a href="">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-discord"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                    </div>
+                    <a href="" class="btn">Download Resume</a>
+                </div>
+                <div class="hero-img">
+                    <img src="./images/IMG_9182-removebg-preview-(2)-(1).webp" alt="My Photo">
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- ========== End Hero Section ========== -->
+      <!-- ========== Start About Section ========== -->
+      <div class="section-about" id="section-about">
+          <div class="container">
+            <div class="top-of">
+                <h2 class="section-common--heading"><span class="underline">About Me</span></h2>
+            </div>
+            <!-- <div class="grid grid-cols-2"> -->
+                <!-- <div class="about-img">
+                 <img src="./images/IMG_9182-removebg-preview-(2)-(1).png" alt="My Img">
+                </div> -->
+            <div class="about-content">
+                <h3 class="section-common--heading">Designing Is My Passion</h3>
+                <p>I'm a passionate Frontend Web Developer with a strong focus on creating responsive, user-friendly web applications. I specialize in modern web technologies like HTML, CSS, ensuring seamless performance across all devices.I bridge the gap between visual design and technical implementation, delivering engaging, intuitive user experiences. My goal is to bring ideas to life through code, crafting solutions that are both functional and visually appealing.</p>
+            </div>
+        <!-- </div> -->
+        </div>
+      </div>
+      <!-- ========== End About Section ========== -->
+      <!-- ========== Start Services Section ========== -->
+      <div class="section-service" id="section-service">
+        <div class="container">
+            <div class="top-of">
+                <h2 class="section-common--heading"><span class="underline">Services</span></h2>
+            </div>
+            <div class="grid grid-cols-3">
+                <div class="card bg">
+                    <div class="icons">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                    <h3 class="section-common--title">Web Development</h3>
+                    <p>I have a foundational understanding of web development using HTML and CSS. This allows me to create basic web pages with structured layouts and simple styling.</p>
+            </div>
+                <div class="card bg">
+                    <div class="icons">
+                    <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <h3 class="section-common--title">Design Skills</h3>
+                    <p>I can design simple and clean logos and build basic layouts that are visually appealing. These skills help me bring ideas to life in a practical and functional way.</p>
+                </div>
+                <div class="card bg">
+                    <div class="icons">
+                    <i class="fa-solid fa-pen"></i>
+                    </div>
+                    <h3 class="section-common--title">Creativity</h3>
+                    <p>I enjoy experimenting with new ideas and thinking outside the box. My focus is on making web designs user-friendly, visually engaging, and aligned with modern design principles.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- ========== End Services Section ========== -->
+       <!-- ========== Start Skills Section ========== -->
+       <div class="section-skill" id="section-skill">
+        <div class="container">
+            <div class="top-of">
+                <h2 class="section-common--heading"><span class="underline">My Skills</span></h2>
+            </div>
+           <div class="container grid grid-cols-2">
+               <div class="skill-content">
+                  <h3 class="section-common--heading">
+                   Skills Reflect Our Knowledge
+                  </h3>
+                  <p class="section-common-subheading">
+                   I am a web developer skilled in HTML, CSS, PHP, and JavaScript. With HTML, I build accessible structures, while CSS allows me to create responsive, visually appealing designs. My JavaScript expertise enables dynamic interactivity, and with PHP, I develop robust server-side applications and manage databases. Together, these skills help me deliver effective web solutions.
+   
+                  </p>
+               </div>
+               <div class="skill-bar">
+                   <div id="box">
+                       <div id="in">
+                   <li><h3>HTML</h3>
+                       <span class="bar"><span class="html"></span></span>
+                   </li>
+                       <Li><h3>CSS</h3>
+                       <span class="bar"><span class="css"></span></span>
+                       </li>
+                       <Li><h3>PHP</h3>
+                       <span class="bar"><span class="php"></span></span>
+                       </li>
+                       <Li><h3>Java Script</h3>
+                       <span class="bar"><span class="javascript"></span></span>
+                   </Li>
+               </div>
+   
+               </div>
+               </div>
+           </div>
+        </div>
+        </div>
+   
+       </div>
+       <!-- ========== End Skills Section ========== -->
+        <!-- ========== Start Projects Section ========== -->
+        <div class="section-projects" id="section-projects">
+            <div class="container">
+                <div class="top-of">
+                    <h2 class="section-common--heading"><span class="underline">My Projects</span></h2>
+                </div>
+                <div class="container-pro">
+                    <a href="https://ayanzportfolio.netlify.app/" target="_blank"><div class="portfolio-card">
+                        <img src="./images/Screenshot 2024-11-30 151151.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="section-common--title"><span class="active">Portfolio 2.0</span></p>
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+        <!-- ========== End Projects Section ========== -->
+        <!-- ========== Start Contact Section ========== -->
+        <div class="section-contact" id="section-contact">
+            <div class="container">
+                <div class="top-of">
+                  <h2 class="section-common--heading">Contact <span class="active">Me!</span></h2>
+                </div>
+            <form action="https://formspree.io/f/manyllby" method="post"
+             >
+                <div class="form">
+                <div class="mb-3">
+                    <label for="username"></label>
+                    <input 
+                    type="text"
+                    id="username" 
+                    name="username"
+                    required 
+                    autocomplete="off"
+                    placeholder="Username">
+                </div>
+    
+                <div class="mb-3">
+                    <label for="email"></label>
+                    <input 
+                    id="email" 
+                    name="email"
+                    required 
+                    autocomplete="off"
+                    placeholder="Email">
+                </div>
+    
+            <div class="mb-3">
+                <label for="subject"></label>
+                    <input 
+                    name="subject"
+                    type="subject"
+                    id="subject" 
+                    placeholder="Subject">
+            </div>
+    
+            <div class="mb-3">
+                <label for="message"></label>
+                    <textarea
+                    name="message"
+                    type="message"
+                    id="message" 
+                    placeholder="Message"
+                    cols="30"
+                    rows="10"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit" class="btn btn-submit">Send Message</button>
+            </div>
+        </div>
+        </form>
+    
+    
+            </div>
+         </div>
+        <!-- ========== End Contact Section ========== -->
+          <!-- ========== Start Footer Section ========== -->
+      <div class="footer">
+        <div class="container">
+            <div class="pages">
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </div>
+            <div class="list">
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Privacy Policy</a></li>
+            </div>
+            <p class="section-common--subheading">
+                &#169; Ayan | All Reserved Rights
+            </p>
+        </div>
+      </div>
+       <script src="./script.js"></script>
+       <!-- ========== End Footer Section ========== -->
+        
+     
+</body>
+</html>
